@@ -1547,6 +1547,7 @@ span {
   font-size: 14px;
   line-height: 20px;
   color: #FFFFFF;
+  text-decoration: none;
   margin-bottom: 117px;
 }
 .footer__nav-list-wrap {
@@ -1940,7 +1941,7 @@ span {
   .block .hide-link {
     display: block;
     position: absolute;
-    left: 40px;
+    left: 0px;
     white-space: nowrap;
     font-family: Work Sans;
     font-style: normal;
