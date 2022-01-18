@@ -1,0 +1,118 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding:0 15px;
+}
+
+.basic-btn{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FCFCFC;
+
+    padding: 20px 34px;
+
+    background: #4D66EC;
+    border: 2px solid #4D66EC;
+    &:hover{
+        color:#4D66EC;
+        background: #FCFCFC;
+        transition-duration: 0.3s;
+    }
+}
+
+.mobile{
+    display: none;
+}
+
+.section-title-wrap{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.section-title{
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 100%;
+    color: #2F3250;
+    padding-right: 20px;
+
+    @media (max-width: 575px){
+        font-size: 24px;
+    }
+}
+
+.section-more {
+    color: #2F3250;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; 
+    white-space: nowrap;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        width: 0;
+        height: 2px; 
+        background-color: black; 
+        transition: width 0.5s; 
+    }
+
+    &:hover:after {
+        content: "";
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 2px; 
+        background-color: #4A5FCF; 
+        transition: width 0.5s;  
+    }
+}
+
+.link{
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -1px;
+        width: 0;
+        height: 1px; 
+        background-color: black;
+        transition: width 0.3s; 
+    }
+
+    &:hover:after {
+        content: "";
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 1px; 
+        background-color: #4A5FCF;
+        transition: width 0.3s;  
+    } 
+
+    &:active{
+        color: #4A5FCF;
+    }
+}
+
+.hide{
+    display: none;
+}
