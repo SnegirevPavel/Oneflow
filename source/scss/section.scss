@@ -1,0 +1,55 @@
+.btn-basic {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #013A4C;
+    background: #FFD063;
+    border: 1px solid #FFD063;
+    box-sizing: border-box;
+    border-radius: 4px;
+    white-space: nowrap;
+
+    &:hover{
+        box-shadow: 0 0 8px 3px #7a7a7a ;
+        transition: 0.3s;
+    }
+}
+
+.container-big {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-shadow: 0 0 8px 1px rgb(70, 70, 70);
+    height: 80px;
+
+    position: relative;
+}
+
+.container-small {
+    max-width: 1182px;
+    margin: 0 auto;
+    padding:0 15px;
+}
+
+.container-smallest {
+    max-width: 887px;
+    padding:0 15px;
+
+    margin: 0 auto;
+}
+
+.container-tools {
+    max-width: 1056px;
+    margin:0 auto;
+    padding:0 15px;
+}
+
+.mobile{
+    display: none;
+}
+
+.block {
+    display: none;
+}
