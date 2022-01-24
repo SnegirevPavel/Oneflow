@@ -1,106 +1,88 @@
 @import "nullstyle.scss";
 
+
+
 body{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Comfortaa';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
-    color: #013A4C;
+    line-height: 1.5em;
+    letter-spacing:1px;
+    color: #131313;
 
-    position: relative;
-    margin-top: 80px;
+    @media (max-width: 575px){
+        position: relative;
+        margin-top: 84px;
+    }
 }
-
-@import "section.scss";
-
 
 
 // HEADER---------->
 
 @import "header.scss";
 
+//Main---------->
 
+@import "main.scss";
 
-// INTRO---------->
-
-@import "intro.scss";
-
-
-
-// INFO---------->
-
-@import "info.scss";
-
-
-
-// TOUR---------->
-
-@import "tour.scss";
-
-
-
-// CARD--------->
-
-@import "card.scss";
-
-
-
-// VIDEO---------->
-
-@import "video.scss";
-
-
-
-// BENEFITS---------->
-
-@import "benefits.scss";
-
-
-
-// PROMO---------->
-
-@import "promo.scss";
-
-
-
-// REVIEW---------->
-
-@import "review.scss";
-
-
-
-// CELL---------->
-
-@import "cell.scss";
-
-
-
-// TOOLS---------->
-
-@import "tools.scss";
-
-
-
-// GUIDE---------->
-
-@import "guide.scss";
-
-
-
-// MORE---------->
-
-@import "more.scss";
-
-
-
-// FOOTER---------->
+//Footer---------->
 
 @import "footer.scss";
 
+// Resume---------->
+
+@import "resume.scss";
+
+// Project---------->
+
+@import "project.scss";
 
 
-// MEDIA---------->
 
-@import "media.scss";
 
+
+
+@import "section.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "adaptive.scss";

@@ -1,0 +1,12 @@
+.project {
+  background-color: #C9D6DF;
+  padding: 100px 0;
+}
+@media (max-width: 575px) {
+  .project {
+    padding: 70px 0;
+  }
+}
+.project__title {
+  margin-bottom: 50px;
+}

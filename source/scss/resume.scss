@@ -1,0 +1,134 @@
+.resume {
+
+    background-color: #e8e8e6 ;
+    padding: 100px 0;
+    @media (max-width: 575px){
+        padding: 70px 0;
+    }
+
+    &__card {
+        background-color: white;
+        box-shadow:-5px 5px 20px 5px grey;
+        border:3px solid #131313;
+
+        padding:70px 100px;
+        margin-bottom: 50px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+        @media (max-width: 991px){
+            padding: 70px 60px;
+        }
+        @media (max-width: 575px){
+            padding: 50px 40px;
+            text-align: center;
+            border-radius: 20px;
+        }
+    }
+
+    &__card-skills{
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 767px){
+            flex-direction: column;
+        }
+    }
+
+    &__card-title {
+        font-size: 24px;
+        font-weight: bold;
+
+        margin-bottom: 20px;
+        position: relative;
+
+        &::before{
+            content: "";
+            position: absolute;
+            top:-15px;
+            left:-100px;
+            background-color: #ff5050;
+            width:10px;
+            height:50px;
+            box-shadow: 1px 0px 5px 1px grey;
+
+            @media (max-width: 991px){
+                left:-60px;
+            }
+
+            @media (max-width: 575px){
+                left:-40px;
+            }
+        }
+    }
+
+    &__card-text {
+        font-size: 18px;
+        line-height: 1.4em;
+        font-weight: bold;
+        @media (max-width: 767px){
+            font-size: 18px;
+        }
+    }
+
+    &__link-text{
+        font-style: italic;
+        color: #131313;
+        &:hover{
+            border-bottom: 1px solid #131313;
+        }
+    }
+
+    &__card-list{
+        @media (max-width: 991px){
+        margin-right: 60px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        @media (max-width: 575px){
+            margin-right: 0;
+        }
+    }
+
+    &__card-title--skills{
+        margin-bottom: 60px;
+    }
+
+    &__card-item-wrap {
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 20px;
+        @media (max-width: 575px){
+            display: block;
+            margin-bottom: 40px;
+        }
+    }
+
+    &__card-item-pic {
+        width:32px;
+        height: 32px;
+
+        margin-right: 20px;
+        @media (max-width: 575px){
+            margin:0 0 10px 0;
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    &__card-item {
+        font-size: 18px;
+        line-height: 2em;
+        font-weight: bold;
+
+        @media (max-width: 575px){
+            font-size: 16px;
+        }
+    }
+}
+
+
+
+
