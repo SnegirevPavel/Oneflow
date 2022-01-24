@@ -1,0 +1,11 @@
+.video {
+
+    &__wrap{
+        margin-bottom: -5px;
+    }
+
+    &__item {
+        width: 100%;
+        cursor: pointer;
+    }
+}

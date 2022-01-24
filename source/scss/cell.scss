@@ -1,0 +1,65 @@
+.cell {
+    
+    position: relative;
+    flex: 0 0 auto;
+    border: 1px solid #D6DFE2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 373px;
+    height: 446px;
+
+    padding:  65px 32px;
+    margin-right: 17px;
+
+    &__text {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #013A4C;
+
+        margin-bottom: 18px;
+    }
+
+    &__read-more-link {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #89285B;
+
+        margin-bottom: auto;
+
+        &:hover{
+            color: #ee0000;
+        }
+
+        &:active{
+            color:#7e7e7e;
+        }
+    }
+
+    &__person {
+        position: absolute;
+        bottom:64px;
+        left:32px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__person-img-wrap {
+        margin-right: 16px;
+    }
+
+    &__person-about {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #013A4C;
+    }
+}

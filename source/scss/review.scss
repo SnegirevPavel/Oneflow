@@ -1,0 +1,33 @@
+.review {
+    padding: 127px 0 101px 0;
+    margin-bottom: 216px;
+    @media (max-width: 767px){
+        margin-bottom: 0;
+    }
+
+    &__title {
+        margin-bottom: 57px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: 0.4px;
+        color: #013A4C;
+        @media (max-width: 575px){
+            font-size: 40px;
+            line-height: 44px;
+            text-align: center;
+        }
+    }
+
+    &__cells {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        @media (max-width: 991px){
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+}
